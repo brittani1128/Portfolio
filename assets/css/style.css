@@ -1,12 +1,21 @@
-body, html {
+/* body, html {
     height:100%;
     margin:0;
     box-sizing:border-box;
     width:100vw;
-    position: absolute;
+} */
+
+body {
+    overflow-x:hidden;
 }
 
-/* Helpers */
+
+/* ========================================= */
+
+
+
+
+/* HELPERS */
 .h100 {
     height:100%;
 }
@@ -15,57 +24,36 @@ section {
     padding:10px 0px;
 }
 
-/* Parallax */
-.parallax-container {
-    height:900px;
-    line-height: 0;
-    
+/* HEADER */
+.header {
+    position:relative;
+    background-attachment: fixed;
+    height:100vh;
+    width:100%;
+    z-index:888;
+    background: linear-gradient(to left bottom, #286364,#182f36,#081013);
+    background-attachment: fixed;
 }
-/* 
-.header__bg {
+
+.cover-bg {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.particles-demo #particles-js {
     position: absolute;
-    top: 0;
-    bottom: 0;
-    right: 0;
-    left: 0;
     width: 100%;
     height: 100%;
-    /* background-image: linear-gradient(#ff9d2f, #ff6126); */
-    /* transform: skewY(-6deg);
-    transform-origin: top left;
-  } */ 
-.parallax { 
-    /* background: linear-gradient(
-        rgba(20,20,20, .5), 
-        rgba(20,20,20, .5)); */
-        
 }
 
-/* .pbgoverlay .et_parallax_bg::before { 
-    background-color: rgba(255, 255, 255, 0.5); 
-    content: “”; 
-    height: 100%; 
-    left: 0; 
-    position: absolute; 
-    top: 0; 
-    width: 100%; } */
 
-#bgimg-1 {
-    /* -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    background-position: center center;
-    width:100%;  */
-    background: linear-gradient(
-        rgba(20,20,20, .5), 
-        rgba(20,20,20, .5));
-
+canvas {
+    display: block;
+    vertical-align: bottom;
 }
-/* 
-#bgimg-1 {
-    height:800px;
-} */
+
+
 .container {
     border:none;
     -webkit-box-shadow: none;
@@ -81,9 +69,10 @@ section {
 
 h2#welcome {
     text-transform: none;
-    font-family: 'Dosis', sans-serif;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
     color:white;
-    font-size:60px;
+    font-size:40px;
+    letter-spacing: 10px;
 
 }
 
@@ -128,22 +117,10 @@ h2#welcome {
     background:#161617;
 }
 
-.col-container {
-    /* display:flex; */
-}
-
-/* .col {
-    flex:1;
-} */
-
-/* .container {
-    margin:100px;
-    width:auto;
-} */
 
 h2 {
     font-family:'Roboto', sans-serif;
-    color:#787fa0;
+    color:#286364;
     letter-spacing:5px;
     text-transform: uppercase;
     font-size:25px;
@@ -157,7 +134,7 @@ h2 {
 }
 
 #about-me {
-    background:#2f344c;
+    background:#203A43;
     width:auto;
     padding:8px;
     text-transform: uppercase;
@@ -202,8 +179,8 @@ h2 {
 }
 
 #resume-btn:hover {
-    border:1px solid #787fa0;
-    background:#787fa0;
+    border:1px solid #286364;
+    background:#286364;
    
 }
 
@@ -253,7 +230,7 @@ h3 {
 }
 
 .card-action a {
-    color:#787fa0 !important;
+    color:#286364 !important;
 }
 
 
@@ -267,7 +244,7 @@ h3 {
 }
 
 .card-reveal .card-title {
-    color:#787fa0 !important;
+    color:#286364 !important;
 }
 
 /* CONTACT */
@@ -286,7 +263,7 @@ h3 {
 .contact-info h6 {
     letter-spacing: 3px;
     font-size:14px;
-    color:#787fa0;
+    color:#286364;
 }
 
 .contact-info p {
@@ -369,8 +346,8 @@ h3 {
 }
 
 .submit:hover {
-    background: #787fa0;
-    border: 1px solid #787fa0;
+    background: #286364;
+    border: 1px solid #286364;
 }
 
 

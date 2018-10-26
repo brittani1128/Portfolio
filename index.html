@@ -16,6 +16,7 @@
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Dosis:600" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Handlee|Kalam" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz" rel="stylesheet">
 
 
 </head>
@@ -23,14 +24,17 @@
 <body>
 
 
-    <div class="parallax-container pbgoverlay">
+    <div class="parallax-container header particles-demo cover-bg">
 
         <div class="valign-wrapper h100">
+            <div class="parallax header_bg" id="particles-js">
+                <canvas class="particles-js-canvas-el" width="2522" height="1826" style="width: 100%; height: 100%;"></canvas>
+            </div>
             <div class="container">
                 <h2 class="center-align overlay" id="welcome">
                     <!-- <span id="first">Brittani</span>
                     <span id="last">Slimp</span> -->
-                    Welcome!
+                    welcome!
                 </h2>
                 <h1 class="center-align" id="iAm">I am
                     <span class="txt-rotate" id="rotating-words" data-period="2000" data-rotate='[ "Passionate.", "Curious.", "Brittani."]'></span>
@@ -38,10 +42,7 @@
 
             </div>
 
-            <div class="parallax header_bg">
-                <img id="bgimg-1" src="https://images.unsplash.com/photo-1507275016429-544fc0875edd?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=bb1df8f8dcbb02aadb6b95cff9d88fba&auto=format&fit=crop&w=2249&q=80"
-                    alt="unsplashed stars">
-            </div>
+
         </div>
     </div>
 
@@ -63,23 +64,22 @@
 
 
                         <p>
-                            Hi! Welcome to my page. My name is Brittani (Britt) and I was born and raised in Austin, Texas. I went to school at UT in
-                            Austin where I studied biology and played volleyball on the club team. I have a Masters in marine
-                            biology from Texas A&M in Galveston. After school I studied environmental consulting, and then
-                            went into sales. While in my sales job I began dabbling with coding through on online program,
-                            and from there knew I wanted to pursue it full time!
+                            Hi! Welcome to my page. My name is Britt and I was born and raised in Austin, Texas. I went to school at UT Austin where
+                            I studied biology and played volleyball. I have a Masters in marine biology from Texas A&M in
+                            Galveston. After school I studied environmental consulting, and then went into sales. While in
+                            my sales job I began dabbling with coding through on online program, and from there knew I wanted
+                            to pursue it full time!
                             <br>
-                            <br> In April this year I left my job and backpacked solo around SE Asia to Thailand, Cambodia, and
-                            Vietnam. It was the most incredible experience of my life to date, but I know there will be many
-                            more like it to come! I love traveling and can't wait to have a career that allows me to work
-                            more independently, and that's also interesting and challenging. That being said, as an athlete
-                            for most of my life I enjoy working in collaborative, team environments as well. I am most interested
-                            in pursuing front end development as I enjoy being creative and learning about the latest technologies
-                            to enhance user experience.
+                            <br> In April this year I left my job and traveled around SE Asia and Europe for a bit, before beginning
+                            a full stack bootcamp program at UT. The project I am most proud of to date is SocialCode, a
+                            social media site for developers...check it out below! I am now ready to get started in my programming
+                            career and am most interested in pursuing front end development, as I enjoy being creative and
+                            learning about the latest technologies to enhance user experience. However, I do enjoy some back
+                            end work as well and would therefore consider fullstack positions. Either way, I'm ambitious
+                            and hungry to learn!
                             <br>
-                            <br> In my free time you can find me out and about with my pup, playing sand or indoor volleyball,
-                            at the gym, or checking out new restaurants. I also have a passion for coaching volleyball to
-                            younger generations.
+                            <br>In my free time you can find me out and about with my pup, playing or coaching volleyball, at
+                            the gym, playing piano, or traveling at every opportunity I can get.
                         </p>
 
                         <a class="btn" id="resume-btn" href="assets/images/resume.pdf" target="_blank">Resume</a>
@@ -296,7 +296,7 @@
                     </div>
                 </div>
                 <div class="col l7">
-                    <form action="https://formspree.io/brittani1128@gmail.com" method="post" enctype="text/plain">
+                    <form action="https://formspree.io/brittani1128@gmail.com" method="POST" enctype="text/plain">
                         <div class="controls">
                             <div class="row">
                                 <div class="col m6">
@@ -319,6 +319,8 @@
                                         <textarea class="input" id="form-message" type="text" name="message" placeholder="Message"></textarea>
                                     </div>
                                 </div>
+                                <input type="hidden" name="_next" value="https://site.io/thanks.html" />
+                                <input type="text" name="_gotcha" style="display:none" />
                                 <div class="col m12">
                                     <button class="btn submit">
                                         <input type="submit" value="Send Email">
@@ -362,7 +364,9 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <script type="text/javascript" src="assets/js/materialize.min.js"></script>
+    <script src="assets/js/particles.js"></script>
     <script src="assets/js/main.js"></script>
+
 
 
 </body>
