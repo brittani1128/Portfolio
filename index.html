@@ -45,16 +45,17 @@
 
         </div>
     </div>
-
+    <!-- ABOUT SECTION ================================================ -->
 
     <section id="section-about" style="border:none">
         <div class="container" style="height:auto">
 
-            <div class="row col-container">
-                <div class="col m12 l4" id="profile-div">
+            <div class="flexbox">
+                <div id="profile-div">
                     <img class="background-image" id="profile-pic" src="assets/images/profile.jpg" alt="selfie">
                 </div>
-                <div class="col l8">
+
+                <div>
 
                     <div class="about-text">
                         <div>
@@ -91,169 +92,163 @@
         </div>
     </section>
 
-    <!-- <div class="parallax-container">
-      <div class="parallax">
-            <img class="background-image" id="bgimg-2" src="assets/images/coffee.jpg" alt="Unsplashed bgimg1">
-      </div>
-    </div> -->
-    <!-- Photo by Nathan Dumlao on Unsplash -->
-
+    <!-- PORTFOLIO SECTION ================================================ -->
 
     <section class="portfolio">
         <h2 class="center-align">Portfolio</h2>
         <div class="album">
             <div class="container">
-                <div class="row">
+                <div class="cards">
 
-                    <div id="social-card" class="col m6 l4">
-                        <div class="card sticky-action">
-                            <div class="card-image waves-effect waves-block waves-light">
-                                <img class="activator" src="assets/images/socialcode.jpg" style="height:250px">
-                            </div>
-                            <div class="card-content">
-                                <h3 class="card-title pb-2 text-center">&ltSocialCode/&gt</h3>
-                            </div>
-                            <div class="card-action">
-                                <a href="https://socialcode-22.herokuapp.com" target="_blank">Demo</a>
-                                <a href="https://github.com/brittani1128/Project3" target="_blank">GitHub</a>
-                            </div>
-                            <div class="card-reveal">
-                                <span class="card-title">&ltSocialCode/&gt
-                                    <i class="material-icons right">close</i>
-                                </span>
-                                <p class="card-text">
-                                    SocialCode is a social network for developers. This MERN application includes a newsfeed of posts from followers. Users can
-                                    post interesting code snippets that their followers can save and refer back to later.
-                                    They can also like and comment on each others posts, and direct message other users.
-                                    The newsfeed includes a sidebar with the latest tech articles. Login with the test account
-                                    to check it out!
-                                    <br>
-                                    <b>Username: </b>test
-                                    <br>
-                                    <b>Password:</b>1234
-                                    <br>
-                                    <br>
-                                    <b>Technologies used:</b> React.js, MongoDB, Node.js Express.js, Passport.
-                            </div>
+
+                    <div class="card sticky-action" id="social-card">
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <img class="activator" src="assets/images/socialcode.jpg" style="height:200px">
+                        </div>
+                        <div class="card-content">
+                            <h3 class="card-title pb-2 text-center">&ltSocialCode/&gt</h3>
+                        </div>
+                        <div class="card-action">
+                            <a href="https://socialcode-22.herokuapp.com" target="_blank">Demo</a>
+                            <a href="https://github.com/brittani1128/Project3" target="_blank">GitHub</a>
+                        </div>
+                        <div class="card-reveal">
+                            <span class="card-title">&ltSocialCode/&gt
+                                <i class="material-icons right">close</i>
+                            </span>
+                            <p class="card-text">
+                                SocialCode is a social network for developers. This MERN application includes a newsfeed of posts from followers. Users can
+                                post interesting code snippets that their followers can save and refer back to later. They
+                                can also like and comment on each others posts, and direct message other users. The newsfeed
+                                includes a sidebar with the latest tech articles. Login with the test account to check it
+                                out!
+                                <br>
+                                <b>Username: </b>test
+                                <br>
+                                <b>Password:</b>1234
+                                <br>
+                                <br>
+                                <b>Technologies used:</b> React.js, MongoDB, Node.js Express.js, Passport.
                         </div>
                     </div>
-                    <div id="macros-card" class="col m6 l4">
-                        <div class="card sticky-action">
-                            <div class="card-image waves-effect waves-block waves-light">
-                                <img class="activator" src="assets/images/macros.jpg" style="height:250px">
-                            </div>
-                            <div class="card-content">
-                                <h3 class="card-title pb-2 text-center">Macro + Meals</h3>
-                            </div>
-                            <div class="card-action">
-                                <a href="https://project2-ey.herokuapp.com/" target="_blank">Demo</a>
-                                <a href="https://github.com/brittani1128/Macro-Meals" target="_blank">GitHub</a>
-                            </div>
-                            <div class="card-reveal">
-                                <span class="card-title">Macro + Meals
-                                    <i class="material-icons right">close</i>
-                                </span>
-                                <p class="card-text">
-                                    Macro + Meals helps the user quickly determine their daily macro needs based upon their body composition and fitness goals,
-                                    then search for and save recipes that meet this criteria.
-                                    <br>
-                                    <br>
-                                    <b>Technologies used:</b> Node.js and Express.js, Sequelize, Handlebars, Passport.
-                            </div>
+
+
+                    <div class="card sticky-action" id="macros-card">
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <img class="activator" src="assets/images/macros.jpg" style="height:200px">
+                        </div>
+                        <div class="card-content">
+                            <h3 class="card-title pb-2 text-center">Macro+Meals</h3>
+                        </div>
+                        <div class="card-action">
+                            <a href="https://project2-ey.herokuapp.com/" target="_blank">Demo</a>
+                            <a href="https://github.com/brittani1128/Macro-Meals" target="_blank">GitHub</a>
+                        </div>
+                        <div class="card-reveal">
+                            <span class="card-title">Macro+Meals
+                                <i class="material-icons right">close</i>
+                            </span>
+                            <p class="card-text">
+                                Macro + Meals helps the user quickly determine their daily macro needs based upon their body composition and fitness goals,
+                                then search for and save recipes that meet this criteria.
+                                <br>
+                                <br>
+                                <b>Technologies used:</b> Node.js and Express.js, Sequelize, Handlebars, Passport.
                         </div>
                     </div>
-                    <div id="got-card" class="col m6 l4">
-                        <div class="card sticky-action">
-                            <div class="card-image waves-effect waves-block waves-light">
-                                <img class="activator" src="assets/images/got2.jpg" style="height:250px">
-                            </div>
-                            <div class="card-content">
-                                <h3 class="card-title text-center">GoT Trivia</h3>
-                            </div>
-                            <div class="card-action">
-                                <a href="https://brittani1128.github.io/Trivia-Game/" target="_blank">Demo</a>
-                                <a href="https://github.com/brittani1128/Trivia-Game" target="_blank">GitHub</a>
-                            </div>
-                            <div class="card-reveal">
-                                <span class="card-title">GoT Trivia
-                                    <i class="material-icons right">close</i>
-                                </span>
-                                <p class="card-text">
-                                    Game of Thrones themed trivia game using JavaScript for the logic and jQuery to manipulate the HTML.</p>
-                            </div>
+
+
+                    <div class="card sticky-action" id="got-card">
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <img class="activator" src="assets/images/got2.jpg" style="height:200px">
+                        </div>
+                        <div class="card-content">
+                            <h3 class="card-title text-center">GoT Trivia</h3>
+                        </div>
+                        <div class="card-action">
+                            <a href="https://brittani1128.github.io/Trivia-Game/" target="_blank">Demo</a>
+                            <a href="https://github.com/brittani1128/Trivia-Game" target="_blank">GitHub</a>
+                        </div>
+                        <div class="card-reveal">
+                            <span class="card-title">GoT Trivia
+                                <i class="material-icons right">close</i>
+                            </span>
+                            <p class="card-text">
+                                Game of Thrones themed trivia game using JavaScript for the logic and jQuery to manipulate the HTML.</p>
                         </div>
                     </div>
-                    <div id="tailwag-card" class="col m6 l4">
-                        <div class="card sticky-action">
-                            <div class="card-image waves-effect waves-block waves-light">
-                                <img class="activator" src="assets/images/tailwag.jpg" style="height:250px">
-                            </div>
-                            <div class="card-content">
-                                <h3 class="card-title pb-2 text-center">TailWag</h3>
-                            </div>
-                            <div class="card-action">
-                                <a href="https://brittani1128.github.io/ProjectOne/" target="_blank">Demo</a>
-                                <a href="https://github.com/brittani1128/ProjectOne" target="_blank">GitHub</a>
-                            </div>
-                            <div class="card-reveal">
-                                <span class="card-title">TailWag
-                                    <i class="material-icons right">close</i>
-                                </span>
-                                <p class="card-text">
-                                    Designed as a mobile application for dog owners to find local dog parks and gathering areas. Implements Google maps API with
-                                    a heatmap layer to show current check-in activity, and Firebase to store park information.</p>
-                            </div>
+
+
+                    <div class="card sticky-action" id="tailwag-card">
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <img class="activator" src="assets/images/tailwag.jpg" style="height:200px">
+                        </div>
+                        <div class="card-content">
+                            <h3 class="card-title pb-2 text-center">TailWag</h3>
+                        </div>
+                        <div class="card-action">
+                            <a href="https://brittani1128.github.io/ProjectOne/" target="_blank">Demo</a>
+                            <a href="https://github.com/brittani1128/ProjectOne" target="_blank">GitHub</a>
+                        </div>
+                        <div class="card-reveal">
+                            <span class="card-title">TailWag
+                                <i class="material-icons right">close</i>
+                            </span>
+                            <p class="card-text">
+                                Designed as a mobile application for dog owners to find local dog parks and gathering areas. Implements Google maps API with
+                                a heatmap layer to show current check-in activity, and Firebase to store park information.</p>
                         </div>
                     </div>
-                    <div id="liri-card" class="col m6 l4">
-                        <div class="card sticky-action">
-                            <div class="card-image waves-effect waves-block waves-light">
-                                <img class="activator" src="assets/images/liri.jpg" style="height:250px">
-                            </div>
-                            <div class="card-content">
-                                <h3 class="card-title pb-2 text-center">LIRI Bot</h3>
-                            </div>
-                            <div class="card-action">
-                                <a href="https://github.com/brittani1128/liri-node-app" target="_blank">GitHub</a>
-                            </div>
-                            <div class="card-reveal">
-                                <span class="card-title">LIRI Bot
-                                    <i class="material-icons right">close</i>
-                                </span>
-                                <p class="card-text">
-                                    A command line Node application that allows the user to search Spotify for songs, Bands in Town for concerts, and OMDB for
-                                    movies.
-                                </p>
-                            </div>
+
+
+                    <div class="card sticky-action" id="liri-card">
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <img class="activator" src="assets/images/liri.jpg" style="height:200px">
+                        </div>
+                        <div class="card-content">
+                            <h3 class="card-title pb-2 text-center">LIRI Bot</h3>
+                        </div>
+                        <div class="card-action">
+                            <a href="https://github.com/brittani1128/liri-node-app" target="_blank">GitHub</a>
+                        </div>
+                        <div class="card-reveal">
+                            <span class="card-title">LIRI Bot
+                                <i class="material-icons right">close</i>
+                            </span>
+                            <p class="card-text">
+                                A command line Node application that allows the user to search Spotify for songs, Bands in Town for concerts, and OMDB for
+                                movies.
+                            </p>
                         </div>
                     </div>
-                    <div id="friend-card" class="col m6 l4">
-                        <div class="card sticky-action">
-                            <div class="card-image waves-effect waves-block waves-light">
-                                <img class="activator" src="assets/images/friend.jpg" style="height:250px">
-                            </div>
-                            <div class="card-content">
-                                <h3 class="card-title pb-2 text-center">Furrever Friend Finder</h3>
-                            </div>
-                            <div class="card-action">
-                                <a href="https://immense-ridge-16573.herokuapp.com/" target="_blank">Demo</a>
-                                <a href="https://github.com/brittani1128/friend-finder" target="_blank">GitHub</a>
-                            </div>
-                            <div class="card-reveal">
-                                <span class="card-title">Furrever Friend Finder
-                                    <i class="material-icons right">close</i>
-                                </span>
-                                <p class="card-text">
-                                    A compatibility-based pet finder that simulates a real world need of finding the best pet for you to adopt based on your
-                                    lifestyle. Answer a few survey questions and you'll be matched with the pest pet currently
-                                    available for adoption!</p>
-                            </div>
+
+
+                    <div class="card sticky-action" id="friend-card">
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <img class="activator" src="assets/images/friend.jpg" style="height:200px">
+                        </div>
+                        <div class="card-content">
+                            <h3 class="card-title pb-2 text-center">Friend Finder</h3>
+                        </div>
+                        <div class="card-action">
+                            <a href="https://immense-ridge-16573.herokuapp.com/" target="_blank">Demo</a>
+                            <a href="https://github.com/brittani1128/friend-finder" target="_blank">GitHub</a>
+                        </div>
+                        <div class="card-reveal">
+                            <span class="card-title">Furrever Friend Finder
+                                <i class="material-icons right">close</i>
+                            </span>
+                            <p class="card-text">
+                                A compatibility-based pet finder that simulates a real world need of finding the best pet for you to adopt based on your
+                                lifestyle. Answer a few survey questions and you'll be matched with the pest pet currently
+                                available for adoption!</p>
                         </div>
                     </div>
+
                     <!-- <div id="bamazon-card" class="col s6 l4">
                         <div class="card sticky-action">
                             <div class="card-image waves-effect waves-block waves-light">
-                                <img class="activator" src="assets/images/bamazon.jpg" style="height:250px">  
+                                <img class="activator" src="assets/images/bamazon.jpg" style="height:200px width:200px">  
                             </div>
                             <div class="card-content">
                                 <h3 class="card-title pb-2 text-center">Bamazon</h3>
@@ -274,12 +269,15 @@
         </div>
     </section>
 
+    <!-- CONTACT SECTION ================================================ -->
+
     <section class="contact-info">
         <div class="container">
             <div class="row">
                 <h2 class="center-align" id="contact">Hire Me</h2>
-                <div class="col l5">
-                    <div class="info">
+                <div class="flexbox">
+
+                    <div class="info-flexbox">
                         <div class="item">
                             <h6>Phone:</h6>
                             <p>(512) 296 9225</p>
@@ -292,72 +290,50 @@
                             <h6>Location:</h6>
                             <p>Austin, TX</p>
                         </div>
-
                     </div>
-                </div>
-                <div class="col l7">
-                    <form action="https://formspree.io/brittani1128@gmail.com" method="POST">
-                        <div class="controls">
-                            <div class="row">
-                                <div class="col m6">
-                                    <div class="form-group">
-                                        <input class="input" id="form-name" type="text" name="name" placeholder="Name" required />
+                    <div>
+                        <form action="https://formspree.io/brittani1128@gmail.com" method="POST">
+                            <div class="controls">
+                                <div class="row">
+                                    <div class="col s12 m6">
+                                        <div class="form-group">
+                                            <input class="input" id="form-name" type="text" name="name" placeholder="Name" required />
+                                        </div>
                                     </div>
-                                </div>
-                                <div class="col m6">
-                                    <div class="form-group">
-                                        <input class="input" id="form-email" type="email" name="_replyto" placeholder="Email" required />
+                                    <div class="col s12 m6">
+                                        <div class="form-group">
+                                            <input class="input" id="form-email" type="email" name="_replyto" placeholder="Email" required />
+                                        </div>
                                     </div>
-                                </div>
-                                <div class="col m12">
-                                    <div class="form-group">
-                                        <input class="input" id="form-subject" type="text" name="subject" placeholder="Subject" />
+                                    <div class="col s12 m12">
+                                        <div class="form-group">
+                                            <input class="input" id="form-subject" type="text" name="subject" placeholder="Subject" />
+                                        </div>
                                     </div>
-                                </div>
-                                <div class="col m12">
-                                    <div class="form-group">
-                                        <textarea class="input" id="form-message" type="text" name="message" placeholder="Message"></textarea>
+                                    <div class="col s12 m12">
+                                        <div class="form-group">
+                                            <textarea class="input" id="form-message" type="text" name="message" placeholder="Message"></textarea>
+                                        </div>
                                     </div>
-                                </div>
-                                <input type="hidden" name="_next" value="https://brittani1128.github.io/Portfolio/" />
-                                <input type="text" name="_gotcha" style="display:none" />
-                                <div class="col m12">
-                                    <button class="btn submit">
-                                        <input type="submit" value="Send Email">
-                                    </button>
-                                </div>
+                                    <input type="hidden" name="_next" value="https://brittani1128.github.io/Portfolio/" />
+                                    <input type="text" name="_gotcha" style="display:none" />
+                                    <div class="col m12">
+                                        <button class="btn submit">
+                                            <input type="submit" value="Send Email">
+                                        </button>
+                                    </div>
 
+                                </div>
                             </div>
-                        </div>
 
-                    </form>
+                        </form>
+                    </div>
+
                 </div>
 
             </div>
-            <!-- 
-            <p>
-                <a class="contact-link" href="https://www.linkedin.com/in/brittani-slimp/" target="_blank">
-                    <img class="icon-link" src="assets/images/linkedin.png" alt="linkedin">
-                </a>
-                <a class="contact-link" href="https://github.com/brittani1128" target="_blank">
-                    <img class="icon-link" src="assets/images/github.png" alt="linkedin">
-                </a>
-            </p>
-            <p class="mt-4">
-                <a class="link" href="assets/images/resume.pdf" target="_blank">Resume |</a>
-                <a class="link" href="mailto:brittani1128@gmail.com"> Email</a>
-            </p> -->
         </div>
     </section>
-
-    <!-- </div> -->
-
-    <!-- <footer class="footer position-fixed pt-3" style="border-top:5px solid #4aaaa5">
-        <div class=col-md-12>
-            <h6>Copyright</h6>
-        </div>
-    </footer> -->
-
 
 
     <!-- JavaScript -->

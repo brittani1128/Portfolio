@@ -1,8 +1,8 @@
 //Parallax =====================================
 
-$(document).ready(function(){
-    $('.parallax').parallax();
-  });
+// $(document).ready(function(){
+//     $('.parallax').parallax();
+//   });
 
 
 // Typewriter Text ==============================
@@ -63,15 +63,6 @@ window.onload = function() {
   css.innerHTML = ".txt-rotate > .wrap { border-right: 0.08em solid #666 }";
   document.body.appendChild(css);
 };
-
-
-// Form Submit ===================================
-
-
-
-
-
-// document.querySelector(".card-flip").classList.toggle("flip");
 
 
 // PARTICLES =======================================
@@ -188,22 +179,3 @@ particlesJS("particles-js", {
 });
 
 
-/* ---- stats.js config ---- */
-
-var count_particles, stats, update;
-stats = new Stats;
-stats.setMode(0);
-stats.domElement.style.position = 'absolute';
-stats.domElement.style.left = '0px';
-stats.domElement.style.top = '0px';
-document.body.appendChild(stats.domElement);
-count_particles = document.querySelector('.js-count-particles');
-update = function() {
-  stats.begin();
-  stats.end();
-  if (window.pJSDom[0].pJS.particles && window.pJSDom[0].pJS.particles.array) {
-    count_particles.innerText = window.pJSDom[0].pJS.particles.array.length;
-  }
-  requestAnimationFrame(update);
-};
-requestAnimationFrame(update);
