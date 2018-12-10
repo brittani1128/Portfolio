@@ -219,6 +219,7 @@ h2 {
     background-color:#222;
     border:1px solid #222;
     border-radius:30px;
+    max-width:350px;
 }
 
 .portfolio h2 {
@@ -385,7 +386,7 @@ h3 {
     .card {
         flex:0 1 47%;
         margin:20px auto;
-        max-width:370px;
+        max-width:350px;
     }
 
     .info-flexbox{
@@ -433,7 +434,7 @@ h3 {
     .card {
         flex:0 1 80%;
         margin:20px auto;
-        max-width:370px;
+        max-width:350px;
     }
     
  }
@@ -441,7 +442,7 @@ h3 {
     .card {
         flex:0 1 48%;
         margin:20px auto;
-        max-width:370px;
+        max-width:350px;
     }
 
  }
@@ -478,7 +479,7 @@ h3 {
     .card {
         flex:0 1 auto;
         margin:10px auto;
-        max-width:370px;
+        max-width:350px;
     }
 
     #contact{
