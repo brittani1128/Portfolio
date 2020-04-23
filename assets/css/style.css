@@ -156,7 +156,7 @@ h2 {
     text-transform: uppercase;
     letter-spacing: 8px;
     color:white;
-    font-size:12px;
+    font-size:14px;
 }
 
 #about-me {
@@ -175,7 +175,7 @@ h2 {
     color:#adadad;
     font-family:'Roboto', sans-serif;
     letter-spacing:2px;
-    font-size:13px;
+    font-size:14px;
 }
 
 #resume-btn {
@@ -282,13 +282,14 @@ h3 {
 
 .contact-info h6 {
     letter-spacing: 3px;
-    font-size:14px;
+    font-size:18px;
     color:#286364;
+    margin-top: 0px;
 }
 
 .contact-info p {
     color:#adadad;
-    font-size:13px;
+    font-size:14px;
     letter-spacing: 3px;
     margin-bottom:40px;
 }
@@ -302,7 +303,7 @@ h3 {
     border-radius: 25px;
     padding-left:15px;
     max-width:100%;
-    font-size:10px;
+    font-size:12px;
     color:#adadad;
     width:100%;
     letter-spacing: 2px;
@@ -330,7 +331,7 @@ h3 {
     border-radius: 20px;
     background:none;
     color:white;
-    font-size:10px;
+    font-size:12px;
     margin-top:20px;
     float:right;
 }
